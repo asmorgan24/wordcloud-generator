@@ -1,5 +1,6 @@
 ### Generate a Word Cloud from any pdf
 
+ANDY, RUN THIS WITH THE CONDA playEnv
 
 To generate a word cloud from a pdf, add the name of the pdf in main.py. Also,
 provide the starting page number & the ending page which the word cloud generator should consider.
