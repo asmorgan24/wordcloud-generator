@@ -1,40 +1,24 @@
-### Generate a Word Cloud from any pdf
-
-ANDY, RUN THIS WITH THE CONDA playEnv
-
-To generate a word cloud from a pdf, add the name of the pdf in main.py. Also,
-provide the starting page number & the ending page which the word cloud generator should consider.
+# Generate a Wordcloud from a bundle of PDFs
+![asmorgan24's wordcloud of peer-reviewed papers](papers.gif)
 
 
-Here are some examples
+A (simple) script for generating wordcloud images and GIFs from PDF documents. This package was built using Python 3.6 and depends on the PyPDF2(https://github.com/mstamy2/PyPDF2) and the word_cloud(https://github.com/amueller/word_cloud) external repositories. 
 
-Indian Constitution
-------
-------
-![word cloud of Indian Constitution](examples/constitution_of_india.jpeg)
+## Usage
 
-*The pdf of Indian Constitution was downloaded from the* [website](http://indiacode.nic.in/coiweb/welcome.html) *of  Ministry of Law and Justice (Legislative Department).*
+Install the appropriate aforementioned python modules. Place all PDFs you want to use for wordcloud generation into a ```pdfs/``` folder in the main directory. Also create an ```out/``` folder in the main directory. Run the following command ``` python main.py```, where you have the follwing args to choose from:
 
-Animal Farm by George Orwell
-------
-------
-![word cloud of Animal Farm by George Orwell](examples/animal_farm.jpeg)
+```('--filename', default='test')
 
-Pride and Prejudice by Jane Austen
-------
-------
-![word cloud of Pride and Prejudice by Jane Austen](examples/pride_and_prejudice.jpeg)
+    ('--image_height', default=1080, type=int)
+    ('--image_width', default=1920, type=int)
+    ('--num_words', default=250, type=int)
+    ('--background_color', default='black')
 
-*Animal farm and Pride & Prejudice were downloaded from the website of* [Project Gutenberg](https://www.gutenberg.org/)
+    ('--save_as_gif', default=False, action='store_true')
+    ('--interval_duration', default=500, type=int)
+```
 
+## Contribute
+Feel free to openly use and adapt this code however you and your project sees fit. 
 
-Requirements
-------
-------
-Python
-
-
-PyPDF2(https://github.com/mstamy2/PyPDF2)
-
-
-word_cloud(https://github.com/amueller/word_cloud)
