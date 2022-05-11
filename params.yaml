@@ -1,0 +1,23 @@
+#Project Params
+proj_path: None                                               #default: XXXX  (str) Path to working directory, if None, it is autofilled
+
+#File Output Params
+saved_filename: 'test'                                        #defatul: test  (str) Filetype is determined by save_as_gif param
+img_width: 1920                                               #default: 1920  (int) Pixels
+img_height: 1080                                              #default: 1080  (int) Pixels
+
+#Data Params
+use_pdfs: False                                                #default: True  (bool) use pdfs in 'pdfs' folder is true, otherwise, use csv
+
+#WordCloud Generation Params
+num_words: 80                                                #default: 250   (int) total number of words in WordCloud
+background_color: [0,0,0]                               #default: [255,255,255] (list) RGB color of background
+
+#GIF Params
+save_as_gif: False                                             #default: False (bool) .GIF if true, .JPEG otherwise
+interval_duration: 500                                        #default: 500   (int) duration between gif images, only used for GIFs (in ms)
+words_each_interval: 10                                        #default: 4     (int) number of words added between each GIF image, only used for GIFs
+
+#Mask Params
+use_mask: False                                               #default: False (bool) whether or not to use a mask for the wordcloud
+mask_filename: 'robot_mask.png'                               #default: 'robot_mask.png' (str) filename of mask to use in 'masks' folder
