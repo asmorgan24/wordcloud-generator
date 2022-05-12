@@ -9,22 +9,6 @@ sys.path.insert(1, './src')
 import pdfparser
 import cloud
 
-# def parse_args():
-#     parser = argparse.ArgumentParser()
-#     # environment
-#     parser.add_argument('--filename', default='test')
-#
-#     parser.add_argument('--image_height', default=1080, type=int) #2160
-#     parser.add_argument('--image_width', default=1920, type=int) #3840
-#     parser.add_argument('--num_words', default=250, type=int)
-#     parser.add_argument('--background_color', default='black')
-#
-#     parser.add_argument('--save_as_gif', default=False, action='store_true')
-#     parser.add_argument('--interval_duration', default=500, type=int)
-#
-#     args = parser.parse_args()
-#     return args
-
 
 def readPDFs(params):
     #Find all pdf files in 'pdfs' subdirectory
