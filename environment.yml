@@ -2,29 +2,29 @@ name: wordcloud
 channels:
   - defaults
 dependencies:
-  - blas=1.0=openblas
-  - ca-certificates=2022.4.26=hca03da5_0
-  - certifi=2021.10.8=py38hca03da5_2
-  - libcxx=12.0.0=hf6beb65_1
-  - libffi=3.4.2=hc377ac9_2
-  - libgfortran=5.0.0=11_1_0_h6a59814_26
-  - libgfortran5=11.1.0=h6a59814_26
-  - libopenblas=0.3.18=hea475bc_0
-  - llvm-openmp=12.0.0=haf9daa7_1
-  - ncurses=6.3=h1a28f6b_2
-  - numpy=1.21.5=py38h25ab29e_2
-  - numpy-base=1.21.5=py38h974a1f5_2
-  - openssl=1.1.1o=h1a28f6b_0
-  - pip=21.2.4=py38hca03da5_0
-  - python=3.8.13=hbdb9e5c_0
-  - readline=8.1.2=h1a28f6b_1
-  - scipy=1.7.3=py38h2f0f56f_0
-  - setuptools=61.2.0=py38hca03da5_0
-  - sqlite=3.38.3=h1058600_0
-  - tk=8.6.11=hb8d0fd4_1
-  - wheel=0.37.1=pyhd3eb1b0_0
-  - xz=5.2.5=h1a28f6b_1
-  - zlib=1.2.12=h5a0b063_2
+  - blas=1.0
+  - ca-certificates=2022.4.26
+  - certifi=2021.10.8
+  - libcxx=12.0.0
+  - libffi=3.4.2
+  - libgfortran=5.0.0
+  - libgfortran5=11.1.0
+  - libopenblas=0.3.18
+  - llvm-openmp=12.0.0
+  - ncurses=6.3
+  - numpy=1.21.5
+  - numpy-base=1.21.5
+  - openssl=1.1.1o
+  - pip=21.2.4
+  - python=3.8.13
+  - readline=8.1.2
+  - scipy=1.7.3
+  - setuptools=61.2.0
+  - sqlite=3.38.3
+  - tk=8.6.11
+  - wheel=0.37.1
+  - xz=5.2.5
+  - zlib=1.2.12
   - pip:
     - appnope==0.1.3
     - argparse==1.4.0
